@@ -4,7 +4,7 @@ Minimalistic U-shaped holder for the standard round mini hygrometer commonly sol
 
 **Example compatible hygrometer:** [Amazon B098JFRNKM](https://www.amazon.com/dp/B098JFRNKM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
 
-**Tip:** For best results, use heavy duty double-sided tape to mount the holder. Available on Amazon and similar sites.
+**Tip:** For best results, use "heavy duty" double-sided tape to mount the holder. Available on Amazon and similar sites.
 
 ## Target Device Dimensions
 
