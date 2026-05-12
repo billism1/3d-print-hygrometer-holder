@@ -21,6 +21,18 @@ Instead, this holder attaches with heavy-duty double-sided tape, which works rem
 ![Render 1](images/openscad_rendering_01.png)
 ![Render 2](images/openscad_rendering_02.png)
 
+## Photos
+
+### Cereal Box
+
+![Hygrometer holder on cereal box](images/cereal_box_01.png)
+
+### Sterilite Box
+
+![Sterilite box top — view from above](images/stereliter_box_01.jpg)
+
+![Sterilite box — hygrometer mounted on underside of lid](images/stereliter_box_02.jpg)
+
 ## Design
 
 - U-shaped profile printed flat on the build plate (U lies on its side)
