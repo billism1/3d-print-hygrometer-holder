@@ -13,7 +13,7 @@ body_r         = 20.715;   // 41.43mm gap (body channel, 40mm body + clearance)
 outer_r        = 28;       // ~5mm wall outside lip channel
 
 z_floor   = 2;             // front-stop thickness
-z_lip_top = 4.5;           // floor + 2.5mm lip channel
+z_lip_top = 3;           // floor + 2.5mm lip channel
 z_top     = 8.5;           // lip_top + 4mm body channel
 
 arm_length = 20;            // straight tangent extension on each side

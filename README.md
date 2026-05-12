@@ -1,6 +1,6 @@
 # Round Hygrometer Holder
 
-U-shaped holder for the standard round mini hygrometer commonly sold on Amazon and similar sites. Designed to attach to the inside of a transparent 3D filament storage container with double-sided tape. Hygrometer slides in from the open end and is retained by its front lip.
+Minimalistic U-shaped holder for the standard round mini hygrometer commonly sold on Amazon and similar sites. Designed to use minimal filament and print quickly while still securely holding the hygrometer. Attaches to the inside of a transparent 3D filament storage container with double-sided tape. Hygrometer slides in from the open end and is retained by its front lip.
 
 **Example compatible hygrometer:** [Amazon B098JFRNKM](https://www.amazon.com/dp/B098JFRNKM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
 
@@ -45,6 +45,7 @@ U-shaped holder for the standard round mini hygrometer commonly sold on Amazon a
 - **Orientation:** Flat on bed as designed
 - **Material:** PLA or PETG recommended
 - **Infill:** 20–30%
+- **Print time:** ~16 minutes (Bambu P1S, SUNLU PLA+ 2.0 filament profile, Bambu Lab standard quality)
 
 ## Repository Layout
 
