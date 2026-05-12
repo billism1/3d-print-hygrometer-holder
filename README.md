@@ -1,58 +1,52 @@
-# 3D Print Model Repository Template
+# Round Hygrometer Holder
 
-Use this template as a clean starting point for a single 3D model (or small model set), with source design files separated from publication-ready assets.
+Wall-mounted U-shaped holder for the standard round mini hygrometer commonly sold on Amazon and similar sites. Hygrometer slides in from the open end and is retained by its front lip.
+
+**Example compatible hygrometer:** [Amazon B098JFRNKM](https://www.amazon.com/dp/B098JFRNKM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
+
+## Target Device Dimensions
+
+| Dimension | Value |
+|-----------|-------|
+| Front lip outer diameter | 45 mm |
+| Body outer diameter | 40 mm |
+| Total depth | 15 mm |
+
+## Renders
+
+![Render 1](images/openscad_rendering_01.png)
+![Render 2](images/openscad_rendering_02.png)
+
+## Design
+
+- U-shaped profile printed flat on the build plate (U lies on its side)
+- 180° arc + two straight tangent arms form the U
+- Inner stepped channel captures the hygrometer lip; body slides through freely
+- Chamfered inner step (default 30°) minimizes overhang for support-free printing
+- Fully parametric OpenSCAD source in `src/hygrometer-holder.scad`
+
+### Key Parameters
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `inner_bottom_r` | 17.5 mm | Front-stop radius (35 mm inner gap) |
+| `lip_r` | 22.75 mm | Lip channel radius (45.5 mm gap) |
+| `body_r` | 20.715 mm | Body channel radius (41.43 mm gap) |
+| `outer_r` | 28 mm | Outer wall radius |
+| `z_floor` | 2 mm | Front-stop ledge height |
+| `z_lip_top` | 4.5 mm | Top of lip channel |
+| `z_top` | 8.5 mm | Total holder height |
+| `arm_length` | 20 mm | Straight arm extension length |
+| `overhang_angle` | 30° | Chamfer angle on inner step |
+
+## Print Settings
+
+- **Supports:** None required (chamfered inner step)
+- **Orientation:** Flat on bed as designed
+- **Material:** PLA or PETG recommended
+- **Infill:** 20–30%
 
 ## Repository Layout
 
-- `src/`  
-  Editable source/design files.
-  - Examples: CAD files, project files, parametric models, working exports.
-  - In derived repos, add tool-specific subfolders as needed.
-
-- `publication/`  
-  Platform-specific release folders.
-  - In derived repos, create one subfolder per destination platform.
-  - Examples: `publication/MakerWorld/`, `publication/Printables/`.
-
-Each top-level folder includes its own `README.md` with folder-specific guidance.
-
-## Suggested Workflow
-
-1. Create or update design files in `src/`.
-2. Export/prepare release assets for each destination.
-3. Place destination-specific files in `publication/<platform>/`.
-4. Keep source and publication assets separate to avoid confusion.
-
-## What to Edit in Derived Repositories (Minimal)
-
-- Update this README title/intro with the model name.
-- Add platform folders under `publication/`.
-- Add tool/app subfolders under `src/`.
-- Optionally add a short changelog section for versioned releases.
-
-## Optional Additions for Derived Repos
-
-- A model photo/renders folder (if desired).
-- License details for model usage/remix terms.
-- Print settings summary (material, layer height, infill, supports).
-- Bill of materials or assembly notes for multi-part models.
-
-## Naming Tips
-
-- Use clear, stable folder names (tool or platform names).
-- Prefer versioned filenames for major releases (for example `v1`, `v2`).
-- Keep naming consistent across source and publication assets.
-
-## Release Checklist
-
-- [ ] Confirm source files are up to date in `src/`.
-- [ ] Export final printable files and place platform-ready assets in `publication/<platform>/`.
-- [ ] Add final screenshots/renders and listing text for each platform.
-- [ ] Verify print settings notes (material, layer height, supports, infill) are included.
-- [ ] Check license/remix terms are clearly documented.
-- [ ] Tag a release version after publishing.
-
-## Included Template Files
-
-- `.gitignore` for common temporary/cache/export artifacts from CAD and slicer workflows.
-- `.gitattributes` with normalization and common 3D file-type hints.
+- `src/` — OpenSCAD parametric source
+- `publication/` — Platform-specific export folders (MakerWorld, Printables, etc.)
