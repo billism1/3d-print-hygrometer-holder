@@ -18,12 +18,16 @@ z_top     = 8.5;           // lip_top + 4mm body channel
 
 arm_length = 20;            // straight tangent extension on each side
 
+overhang_angle = 30;       // chamfer angle (deg from horizontal) at top inner step.
+                           // 45° is steepest self-supporting overhang for FDM.
+chamfer_dz = (lip_r - body_r) * tan(overhang_angle);
+
 profile = [
     [inner_bottom_r, 0],
     [inner_bottom_r, z_floor],
     [lip_r,          z_floor],
     [lip_r,          z_lip_top],
-    [body_r,         z_lip_top],
+    [body_r,         z_lip_top + chamfer_dz],   // chamfered top inner step
     [body_r,         z_top],
     [outer_r,        z_top],
     [outer_r,        0],
