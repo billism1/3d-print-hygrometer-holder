@@ -1,6 +1,6 @@
 # Round Hygrometer Holder
 
-Wall-mounted U-shaped holder for the standard round mini hygrometer commonly sold on Amazon and similar sites. Hygrometer slides in from the open end and is retained by its front lip.
+U-shaped holder for the standard round mini hygrometer commonly sold on Amazon and similar sites. Designed to attach to the outside of a transparent 3D filament storage container with double-sided tape. Hygrometer slides in from the open end and is retained by its front lip.
 
 **Example compatible hygrometer:** [Amazon B098JFRNKM](https://www.amazon.com/dp/B098JFRNKM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
 
